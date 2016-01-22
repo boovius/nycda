@@ -3,7 +3,7 @@ require 'rails_helper'
 RSpec.describe User, type: :model do
   describe 'greet' do
 
-    it 'says hello z-a-c-h' do
+    it 'says hello u-s-e-r' do
       #user = User.new
       #name = 'zach'
       #expect(user.greet name).to eq 'hello z-a-c-h'
