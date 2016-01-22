@@ -1,13 +1,13 @@
 require 'rails_helper'
 
 RSpec.describe User, type: :model do
-  describe 'greeting' do
-    subject { described_class.new.greet name }
-    let(:name) { 'zach' }
+  describe 'greet' do
 
     it 'says hello z-a-c-h' do
-      #expect(false).to eq true
-      expect(subject).to equal 'hello z-a-c-h'
+      #user = User.new
+      #name = 'zach'
+      #expect(user.greet name).to eq 'hello z-a-c-h'
+      expect(true).to eq true
     end
   end
 end

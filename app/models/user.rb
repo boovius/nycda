@@ -1,5 +1,5 @@
 class User < ActiveRecord::Base
-  def greet
-
+  def greet(name)
+    'hello ' + name
   end
 end
